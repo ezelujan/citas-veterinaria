@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react';
-import uuid from 'uuid/v4';
+//import { v4 as uuid } from 'uuid/v4';
 import PropTypes from 'prop-types';
+const { v4: uuid } = require('uuid');
 
 const Formulario = ({crearCita}) => {
 	// Crear State de citas
